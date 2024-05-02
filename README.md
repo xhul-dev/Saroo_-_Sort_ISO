@@ -15,7 +15,7 @@ Windows, most probably all versions.
 ## instructions
 
 Simply put "Saroo - Sort ISO.bat" on the micro SD card and execute it.\
-The location doesn't matter, as long as it's not "\\SAROO\ISO\\" or below, but don't worry, the script detects if it is.\
+The location doesn't matter, as long as it's not "\SAROO\ISO\\" or below, but don't worry, the script detects if it is.\
 Note that you have to re-execute the script each time you've added some stuff in "\\SAROO\ISO\\".
 
 ## known issues
