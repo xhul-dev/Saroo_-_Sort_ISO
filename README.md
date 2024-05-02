@@ -16,12 +16,12 @@ Windows, most probably all versions.
 
 Simply put "Saroo - Sort ISO.bat" on the micro SD card and execute it.\
 The location doesn't matter, as long as it's not "\SAROO\ISO\\" or below, but don't worry, the script detects if it is.\
-Note that you have to re-execute the script each time you've added some stuff in "\\SAROO\ISO\\".
+Note that you have to re-execute the script each time you've added some stuff in "\SAROO\ISO\\".
 
 ## known issues
 
 - Windows Explorer can sometimes lock some directories, causing an error.\
-More specifically, "\\SAROO\ISO\\" becomes locked for some commands, if any directory below it has been visible in the navigation pane.\
+More specifically, "\SAROO\ISO\\" becomes locked for some commands, if any directory below it has been visible in the navigation pane.\
 Anyway, if the script detects a lock, the execution pauses, allowing to close all open Explorer instances manually and retry.
 
 ## history
@@ -40,7 +40,7 @@ Anyway, if the script detects a lock, the execution pauses, allowing to close al
 
 ### version 2
 
-- The script can now be executed from anywhere on the micro SD card, as long as it's not "\\SAROO\ISO\\" or below.
+- The script can now be executed from anywhere on the micro SD card, as long as it's not "\SAROO\ISO\\" or below.
 - Added a recommendation to close all Explorer instances before starting.
 - The script now detects locked files and directories.
 - Files|directories with the H|S attribute no longer cause errors.
