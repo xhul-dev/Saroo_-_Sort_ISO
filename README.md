@@ -1,5 +1,5 @@
 # Saroo - Sort ISO
-version 4\
+version 4
 xhul - 2024\
 reports: https://github.com/xhul-dev/Saroo_-_Sort_ISO/issues
 
