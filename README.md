@@ -20,7 +20,7 @@ Note that you have to re-execute the script each time you've added some stuff in
 
 ## known issues
 
-- Windows Explorer can sometimes lock some directories, causing an error.
+- Windows Explorer can sometimes lock some directories, causing an error.\
 More specifically, "\SAROO\ISO\\" becomes locked for some commands, if any directory below it has been visible in the navigation pane.\
 Anyway, if the script detects a lock, the execution pauses, allowing to close all open Explorer instances manually and retry.
 
