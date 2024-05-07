@@ -1,6 +1,8 @@
 # Saroo - Sort ISO
-version 4\
+version 5\
 xhul - 2024\
+download: https://github.com/xhul-dev/Saroo_-_Sort_ISO/releases/download/V5/Saroo_-_Sort_ISO.zip
+\
 reports: https://github.com/xhul-dev/Saroo_-_Sort_ISO/issues
 
 ## description
@@ -10,7 +12,8 @@ Useful if the used Saroo software version doesn't do that automatically.
 
 ## requirements
 
-Windows, most probably all versions.
+Windows.\
+Pre-xp versions weren't tested and are not exactly recommended.
 
 ## instructions
 
@@ -25,6 +28,12 @@ More specifically, "\SAROO\ISO\\" becomes locked for some commands, if any direc
 Anyway, if the script detects a lock, the execution pauses, allowing to close all open Explorer instances manually and retry.
 
 ## history
+
+### version 5
+
+- Added a new user choice input upon success, allowing to view the sort order before exiting.
+- Fixed a compatibility issue caused by "if [not] exist object" and "if [not] exist object\\" being interpreted identically on some systems.
+- Added compatibility with the "windir" environment variable, in case "SystemRoot" isn't defined.
 
 ### version 4
 
@@ -49,3 +58,10 @@ Anyway, if the script detects a lock, the execution pauses, allowing to close al
 ### version 1
 
 - The script must be executed from the root of the micro SD card.
+
+## credits
+
+- everybody who contributed to the knowledge found on https://ss64.com/nt/
+- everybody who contributed to the knowledge found on https://stackoverflow.com/
+- Nico_Kamui from https://darius-saturn.com/forum/ - bug reports
+- czapa86 from https://github.com/ - bug report
