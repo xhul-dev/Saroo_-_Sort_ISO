@@ -1,7 +1,7 @@
 # Saroo - Sort ISO
-version 5\
+version 6\
 xhul - 2024\
-download: https://github.com/xhul-dev/Saroo_-_Sort_ISO/releases/download/V5/Saroo_-_Sort_ISO.zip
+download: https://github.com/xhul-dev/Saroo_-_Sort_ISO/releases
 \
 reports: https://github.com/xhul-dev/Saroo_-_Sort_ISO/issues
 
@@ -17,17 +17,18 @@ Pre-xp versions weren't tested and are not exactly recommended.
 
 ## instructions
 
-Simply put "Saroo - Sort ISO.bat" on the micro SD card and execute it.\
+Simply put the "Saroo - Sort ISO" directory on the micro SD card and execute "Saroo - Sort ISO.bat".\
 The location doesn't matter, as long as it's not "\SAROO\ISO\\" or below, but don't worry, the script detects if it is.\
 Note that you have to re-execute the script each time you've added some stuff in "\SAROO\ISO\\".
 
-## known issues
-
-- Windows Explorer can sometimes lock some directories, causing an error.\
-More specifically, "\SAROO\ISO\\" becomes locked for some commands, if any directory below it has been visible in the navigation pane.\
-Anyway, if the script detects a lock, the execution pauses, allowing to close all open Explorer instances manually and retry.
-
 ## history
+
+### version 6
+
+- It's now required to have the whole "Saroo - Sort ISO" directory on the micro SD card, not just "Saroo - Sort ISO.bat".
+- The script now closes all existing Explorer windows automatically to try to unlock "\SAROO\ISO\\", though it shows a warning before doing so.
+- The script now checks if command extensions are either unavailable or obsolete.
+- Some optimisation here and there.
 
 ### version 5
 
@@ -61,7 +62,8 @@ Anyway, if the script detects a lock, the execution pauses, allowing to close al
 
 ## credits
 
+- Nico_Kamui from https://darius-saturn.com/forum/ - bug reports
+- Nir Sofer - nircmd
+- czapa86 from https://github.com/ - bug report
 - everybody who contributed to the knowledge found on https://ss64.com/nt/
 - everybody who contributed to the knowledge found on https://stackoverflow.com/
-- Nico_Kamui from https://darius-saturn.com/forum/ - bug reports
-- czapa86 from https://github.com/ - bug report
