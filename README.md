@@ -1,5 +1,5 @@
 # Saroo - Sort ISO
-version 6\
+version 7\
 xhul - 2024\
 download: https://github.com/xhul-dev/Saroo_-_Sort_ISO/releases
 \
@@ -22,6 +22,11 @@ The location doesn't matter, as long as it's not "\SAROO\ISO\\" or below, but do
 Note that you have to re-execute the script each time you've added some stuff in "\SAROO\ISO\\".
 
 ## history
+
+### version 7
+
+- Direct key input is now supported (Enter no longer required to validate).
+- UTF-8 characters in file|directory names are now supported.
 
 ### version 6
 
