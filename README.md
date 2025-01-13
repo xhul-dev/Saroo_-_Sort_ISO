@@ -1,6 +1,6 @@
 # Saroo - Sort ISO
-version 7\
-xhul - 2024\
+version 8\
+xhul - 2025\
 download: https://github.com/xhul-dev/Saroo_-_Sort_ISO/releases
 \
 reports: https://github.com/xhul-dev/Saroo_-_Sort_ISO/issues
@@ -22,6 +22,14 @@ The location doesn't matter, as long as it's not "\SAROO\ISO\\" or below, but do
 Note that you have to re-execute the script each time you've added some stuff in "\SAROO\ISO\\".
 
 ## history
+
+### version 8
+
+- Fixed some display failures caused by some poisonous characters.
+- UTF-8 support is no longer mandatory, for compatibility purpose.
+- The script now detects unsupported file|directory names, to prevent possible failures.
+- The input buffer is now reset more reliably.
+- Some optimisation here and there.
 
 ### version 7
 
@@ -67,8 +75,10 @@ Note that you have to re-execute the script each time you've added some stuff in
 
 ## credits
 
+- Aacini from https://www.dostips.com/forum/ - flushinputbuffer.exe and show.exe
 - Nico_Kamui from https://darius-saturn.com/forum/ - bug reports
-- Nir Sofer - nircmd
+- Nir Sofer - nircmdc.exe
 - czapa86 from https://github.com/ - bug report
 - everybody who contributed to the knowledge found on https://ss64.com/nt/
 - everybody who contributed to the knowledge found on https://stackoverflow.com/
+- everybody who contributed to the knowledge found on https://www.dostips.com/
